@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+<script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
+
+<div id="content"></div>
+
+<script>
+const mdown = `
+## Provizorní opendata katalog Českého rozhlasu
+
+_datasety chystáme_
+
+Kontakt: [jan.cibulka@rozhlas.cz](mailto:jan.cibulka@rozhlas.cz)
+`
+
+var md = new Remarkable({
+    breaks: true,
+});
+document.getElementById("content").innerHTML = md.render(mdown);
+</script>
+
