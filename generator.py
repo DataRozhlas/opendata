@@ -7,9 +7,6 @@ import json
 with open('datasets.yaml', 'r', encoding='utf-8') as f:
     sets = yaml.safe_load(f)
 
-#%%
-sets
-
 # %%
 with open('./api/package_list.json', 'w', encoding='utf-8') as f:
     f.write(json.dumps({
@@ -23,5 +20,3 @@ for dset in sets:
             'success': True,
             'result': dset
         }, ensure_ascii=False))
-
-# %%

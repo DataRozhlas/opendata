@@ -82,3 +82,45 @@
             format: application/json
             name: Konkrétní den
             license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+-   uid: koncese_lih_mpo
+    title: Koncese k prodeji lihu
+    notes: Dataset z roku 2017, obsahující IČ živnostníků s koncesí na prodej alkoholu. Informace byly vymožené žalobou na Ministerstvo průmyslu a obchodu.
+    frequency: IRREG
+    ruian_type: ST
+    ruian_code: 1
+    theme: http://eurovoc.europa.eu/6365
+    publisher_uri: https://rozhlas.cz/
+    publisher_name: Český rozhlas
+    maintainer_email: opendata@rozhlas.cz
+    tags:
+        -   name: koncese
+        -   name: alkohol
+        -   name: kvasný líh
+        -   name: podnikání
+        -   name: Ministerstvo průmyslu a obchodu
+    resources:
+        -   url: https://data.irozhlas.cz/opendata/Prodej_lihu_a_lihovin_k_09012017.xlsx
+            format: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            name: Seznam IČ s koncesí k 9. lednu 2017
+            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+-   uid: stk_md_2018
+    title: STK 2018
+    notes: Jde o informace o ednotlivých kontrolách na STK v roce 2018, získané od Ministerstva dopravy podle zákona č. 106/1999 Sb.
+    frequency: IRREG
+    ruian_type: ST
+    ruian_code: 1
+    theme: http://eurovoc.europa.eu/4533
+    publisher_uri: https://rozhlas.cz/
+    publisher_name: Český rozhlas
+    maintainer_email: opendata@rozhlas.cz
+    tags:
+        -   name: doprava
+        -   name: stk
+        -   name: silniční doprava
+        -   name: automobil
+        -   name: Ministerstvo dopravy
+    resources:
+        -   url: https://data.irozhlas.cz/opendata/Seznam_prohlidek_STK_2018.tar.gz
+            format: application/xml
+            name: Informace o výsledcích kontrol silničních vozidel na STK v roce 2018
+            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
