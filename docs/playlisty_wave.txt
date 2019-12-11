@@ -1,0 +1,8 @@
+Popis jednotlivých položek v rámci datových objektů:  
+- since - čas, kdy byl zaznamenán začátek přehrávání skladby
+- id - unikátní číselné ID skladby v rámci playlistu všech stanic za celou dobu
+- interpret - název interpreta skladby tak, jak je zapsán v odbavovacím systému
+- interpret_id - unikátní ID interpreta
+- track - název skladby tak, jak je zapsán v odbavovacím systému
+- track_id - unikátní ID skladby
+- files - pole assetů, kterých může být 0-N (fotografie interpretů, obaly alb atd.)
