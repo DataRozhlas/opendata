@@ -40,22 +40,22 @@
             format: application/json
             name: Aktuální den a všechny stanice
             describedBy: https://api.rozhlas.cz/data/v2/meta/stations.json
-            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
         -   url: https://api.rozhlas.cz/data/v2/schedule/day/[STATION_ID].json 
             format: application/json
             name: Aktuální den a konkrétní stanice
             describedBy: https://api.rozhlas.cz/data/v2/meta/stations.json
-            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
         -   url: https://api.rozhlas.cz/data/v2/schedule/day/[YYYY]/[MM]/[DD].json   
             format: application/json
             name: Konkrétní den a všechny stanice
             describedBy: https://api.rozhlas.cz/data/v2/meta/stations.json
-            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
         -   url: https://api.rozhlas.cz/data/v2/schedule/day/[YYYY]/[MM]/[DD]/[STATION_ID].json  
             format: application/json
             name: Konkrétní den a konkrétní stanice
             describedBy: https://api.rozhlas.cz/data/v2/meta/stations.json
-            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
 -   uid: playlisty_wave
     title: Playlisty stanice Wave
     notes: Playlist stanice Wave mnoho let do historie, data do budoucnosti dostupná nejsou. 
@@ -77,11 +77,11 @@
         -   url: https://api.rozhlas.cz/data/v2/playlist/day/radiowave.json
             format: application/json
             name: Aktuální den
-            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
         -   url: https://api.rozhlas.cz/data/v2/playlist/day/[YYYY]/[MM]/[DD]/radiowave.json 
             format: application/json
             name: Konkrétní den
-            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
 -   uid: koncese_lih_mpo
     title: Koncese k prodeji lihu
     notes: Dataset z roku 2017, obsahující IČ živnostníků s koncesí na prodej alkoholu. Informace byly vymožené žalobou na Ministerstvo průmyslu a obchodu.
@@ -102,7 +102,7 @@
         -   url: https://data.irozhlas.cz/opendata/Prodej_lihu_a_lihovin_k_09012017.xlsx
             format: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
             name: Seznam IČ s koncesí k 9. lednu 2017
-            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
 -   uid: stk_md_2018
     title: STK 2018
     notes: Jde o informace o ednotlivých kontrolách na STK v roce 2018, získané od Ministerstva dopravy podle zákona č. 106/1999 Sb.
@@ -123,4 +123,4 @@
         -   url: https://data.irozhlas.cz/opendata/Seznam_prohlidek_STK_2018.tar.gz
             format: application/xml
             name: Informace o výsledcích kontrol silničních vozidel na STK v roce 2018
-            license_link: https://www.rozhlas.cz/informace/service/_zprava/1799021
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
