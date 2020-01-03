@@ -18,7 +18,7 @@
     resources:
         -   url: https://github.com/datastory/dpp-prepravni-pruzkumy
             format: text/csv
-            license_link: https://github.com/datastory/dpp-prepravni-pruzkumy/blob/master/LICENSE
+            license_link: https://data.gov.cz/podmínky-užití/volný-přístup/
 -   uid: vysilani_program
     title: Program vysílání ČRo
     notes: Program vysílání dostupný mnoho let do historie a cca 14 dnů do budoucnosti.
